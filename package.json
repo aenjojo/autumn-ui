@@ -1,0 +1,30 @@
+{
+  "name": "@aenjojo/autumn-ui",
+  "version": "1.0.0",
+  "description": "A UI component for React",
+  "author": "Aen Jojo",
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/aenjojo"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/react": "^18.0.33",
+    "react": "^18.2.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
