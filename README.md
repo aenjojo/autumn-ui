@@ -13,5 +13,17 @@ npm install @aenjojo/autumn-ui
 yarn add @aenjojo/autumn-ui
 ```
 
+## Usage
+To use, import the component from the package like the following:
+```js
+import { component } from '@aenjojo/autumn-ui';
+```
+Change `component` with the component you want to use, like `Button` or `Link`. All components can be seen in the documentation (unavailable yet).
+
+To use the style, import this code in the main file of your app:
+```js
+import '@aenjojo/autumn-ui/dist/main.css';
+```
+
 ## Note
 This package still in early development mode
