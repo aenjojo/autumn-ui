@@ -1,1 +1,3 @@
-export * from './button/';
+import './../main.css';
+
+export * from './button';
