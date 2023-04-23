@@ -1,0 +1,35 @@
+{
+	"Preflight Test Setup": {
+		"scope": "typescriptreact",
+		"prefix": "test_setup",
+		"description": "Set up required code for component test",
+		"body": [
+			"import React from 'react';",
+			"import { render } from '@testing-library/react';",
+			"import { $1 } from '#components';",
+			"$0",
+		],
+	},
+	"Add New Describe": {
+		"scope": "typescriptreact",
+		"prefix": "testdesc_add",
+		"description": "Add a new describe",
+		"body": [
+			"describe('$1', () => {",
+			"\t$2",
+			"});$0",
+		],
+	},
+	"Add New Test": {
+		"scope": "typescriptreact",
+		"prefix": "test_add",
+		"description": "Add a new test",
+		"body": [
+			"test('$1', () => {",
+			"\trender(",
+			"\t\t$2",
+			"\t)$3;",
+			"});$0",
+		],
+	},
+}
