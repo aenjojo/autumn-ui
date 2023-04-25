@@ -13,7 +13,8 @@
     "build": "rollup -c",
     "sb-dev": "storybook dev -p 6006",
     "sb-build": "storybook build",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/aenjojo"
@@ -38,9 +39,12 @@
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.0",
     "@types/react": "^18.0.33",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
     "autoprefixer": "^10.4.14",
     "babel-jest": "^29.5.0",
     "clsx": "^1.2.1",
+    "eslint": "^8.39.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "postcss": "^8.4.21",
