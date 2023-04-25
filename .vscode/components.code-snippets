@@ -1,0 +1,33 @@
+{
+	"Preflight Component Setup": {
+		"scope": "typescriptreact",
+		"prefix": "comp_setup",
+		"description": "Set up required code for component test",
+		"body": [
+			"import React from 'react';",
+			"import clsx from 'clsx';",
+			"",
+			"export interface $1Props {",
+			"\t$2",
+			"}",
+			"",
+			"export function $1({",
+			"\t$3",
+			"}: $1Props) {",
+			"\treturn (",
+			"\t\t$4",
+			"\t);",
+			"}$0",
+		],
+	},
+	"Add New Style": {
+		"scope": "typescriptreact",
+		"prefix": "comp_style",
+		"description": "Add style variable for dynamic tailwind styling",
+		"body": [
+			"const $1Styles = clsx([",
+			"\t$2",
+			"]);$0",
+		],
+	}
+}
