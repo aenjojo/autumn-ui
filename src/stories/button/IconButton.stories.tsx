@@ -13,11 +13,13 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
+const sbIcon = <SiStorybook size={24} />;
+
 export const Fill: Story = {
 	args: {
 		label: 'Filled Button',
 		variant: 'fill',
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
 
@@ -25,7 +27,7 @@ export const Outline: Story = {
 	args: {
 		label: 'Outlined Button',
 		variant: 'outline',
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
 
@@ -33,7 +35,7 @@ export const Ghost: Story = {
 	args: {
 		label: 'Ghost Button',
 		variant: 'ghost',
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
 
@@ -41,7 +43,7 @@ export const Big: Story = {
 	args: {
 		label: 'Big Button',
 		size: 'big',
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
 
@@ -49,7 +51,7 @@ export const Medium: Story = {
 	args: {
 		label: 'Medium Button',
 		size: 'medium',
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
 
@@ -57,37 +59,15 @@ export const Small: Story = {
 	args: {
 		label: 'Small Button',
 		size: 'small',
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
 
-export const BigIconOnly: Story = {
+export const IconOnly: Story = {
 	args: {
 		label: 'Icon Only Button',
-		variant: 'outline',
-		size: 'big',
 		iconOnly: true,
-		icon: <SiStorybook />,
-	},
-};
-
-export const MediumIconOnly: Story = {
-	args: {
-		label: 'Icon Only Button',
-		variant: 'outline',
-		size: 'medium',
-		iconOnly: true,
-		icon: <SiStorybook />,
-	},
-};
-
-export const SmallIconOnly: Story = {
-	args: {
-		label: 'Icon Only Button',
-		variant: 'outline',
-		size: 'small',
-		iconOnly: true,
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
 
@@ -96,16 +76,6 @@ export const Disabled: Story = {
 		label: 'Disabled Button',
 		variant: 'fill',
 		disabled: true,
-		icon: <SiStorybook />,
-	},
-};
-
-export const DisabledIconOnly: Story = {
-	args: {
-		label: 'Disabled Icon Only Button',
-		variant: 'fill',
-		disabled: true,
-		iconOnly: true,
-		icon: <SiStorybook />,
+		icon: sbIcon,
 	},
 };
