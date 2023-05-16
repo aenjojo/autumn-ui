@@ -26,4 +26,4 @@ import '@aenjojo/autumn-ui/dist/main.css';
 ```
 
 ## Note
-This package still in early development mode
+This package ~~still in early development mode~~ is archived, because a new package with a new name and new goals currently developed privately.
